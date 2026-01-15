@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [37.7847, -79.4437], // EDIT coordinates to re-center map 37.784750788611454, -79.44376015795531
+    center: [37.7847507, -79.443760], // EDIT coordinates to re-center map 37.784750788611454, -79.44376015795531
     zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
@@ -41,7 +41,7 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([37.7847, -79.4437]).addTo(map) // EDIT marker coordinates  37.784489623666275, -79.44340804334638
+  L.marker([37.7847507, -79.443760]).addTo(map) // EDIT marker coordinates  37.784489623666275, -79.44340804334638
   .bindPopup("Lexington"); // EDIT pop-up text message
 
   </script>
